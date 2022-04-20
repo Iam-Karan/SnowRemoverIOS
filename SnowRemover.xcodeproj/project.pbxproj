@@ -47,6 +47,9 @@
 		2F0537DF27F3D11700AB1C61 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0537DE27F3D11700AB1C61 /* AboutUsViewController.swift */; };
 		2F0537E327F3D59000AB1C61 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0537E127F3D59000AB1C61 /* ProductCollectionViewCell.swift */; };
 		2F0537E427F3D59000AB1C61 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0537E227F3D59000AB1C61 /* ProductCollectionViewCell.xib */; };
+		2F11C46F2803787B0097BBA1 /* CartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F11C46E2803787B0097BBA1 /* CartStoryboard.storyboard */; };
+		2F11C471280378980097BBA1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F11C470280378980097BBA1 /* CartViewController.swift */; };
+		2F1690DD28104EF30034B49B /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F1690DC28104EF30034B49B /* logo.jpeg */; };
 		2F1B8F4727F413370099986D /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1B8F4627F413370099986D /* SignInStoryboard.storyboard */; };
 		2F1B8F4A27F4136D0099986D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B8F4927F4136D0099986D /* SignInViewController.swift */; };
 		2F1B8F4E27F4288B0099986D /* ToastLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B8F4D27F4288B0099986D /* ToastLabel.swift */; };
@@ -58,8 +61,21 @@
 		2F1B8F5A27F499BB0099986D /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B8F5927F499BB0099986D /* UserProfileViewController.swift */; };
 		2F1B8F5C27F4A9000099986D /* PersonDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1B8F5B27F4A9000099986D /* PersonDetailStoryboard.storyboard */; };
 		2F1B8F5E27F4A91A0099986D /* PersondetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B8F5D27F4A91A0099986D /* PersondetailViewController.swift */; };
+		2F2A390D2806A62400FF187F /* ReserveStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2A390C2806A62400FF187F /* ReserveStoryboard.storyboard */; };
+		2F2A390F2806A63C00FF187F /* ReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A390E2806A63C00FF187F /* ReserveViewController.swift */; };
+		2F2A39112806AC3D00FF187F /* CheckoutStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2A39102806AC3D00FF187F /* CheckoutStoryboard.storyboard */; };
+		2F2A39132806AC5100FF187F /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A39122806AC5100FF187F /* CheckoutViewController.swift */; };
+		2F2A39152806B7D800FF187F /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A39142806B7D800FF187F /* CartTableViewCell.swift */; };
+		2F2A39172806B8A900FF187F /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A39162806B8A900FF187F /* CartModel.swift */; };
+		2F2AD258280D4F30002F22C1 /* OrderDetailsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2AD257280D4F30002F22C1 /* OrderDetailsStoryboard.storyboard */; };
+		2F2AD25A280D4F52002F22C1 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2AD259280D4F52002F22C1 /* OrderDetailsViewController.swift */; };
 		2F2FCF2E27F3FC2F00CD6197 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2FCF2D27F3FC2F00CD6197 /* ImageService.swift */; };
+		2F67A26A280DCC4700268CB3 /* OrderItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F67A269280DCC4700268CB3 /* OrderItemModel.swift */; };
+		2F67A26C280DCD3400268CB3 /* OrderItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F67A26B280DCD3400268CB3 /* OrderItemTableViewCell.swift */; };
 		2F93E6A927F3ED00006354EE /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93E6A827F3ED00006354EE /* ProductModel.swift */; };
+		2FD775B6280CADD100E75DA5 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD775B5280CADD100E75DA5 /* OrderModel.swift */; };
+		2FD775B8280CBB2100E75DA5 /* OrderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD775B7280CBB2100E75DA5 /* OrderViewCell.swift */; };
+		2FF482D2280F5D3300EBA43C /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 2FF482D1280F5D3300EBA43C /* YouTubeiOSPlayerHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +93,9 @@
 		2F0537DE27F3D11700AB1C61 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		2F0537E127F3D59000AB1C61 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		2F0537E227F3D59000AB1C61 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		2F11C46E2803787B0097BBA1 /* CartStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartStoryboard.storyboard; sourceTree = "<group>"; };
+		2F11C470280378980097BBA1 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		2F1690DC28104EF30034B49B /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpeg; path = ../../logo.jpeg; sourceTree = "<group>"; };
 		2F1B8F4627F413370099986D /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
 		2F1B8F4927F4136D0099986D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2F1B8F4D27F4288B0099986D /* ToastLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastLabel.swift; sourceTree = "<group>"; };
@@ -88,8 +107,21 @@
 		2F1B8F5927F499BB0099986D /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		2F1B8F5B27F4A9000099986D /* PersonDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonDetailStoryboard.storyboard; sourceTree = "<group>"; };
 		2F1B8F5D27F4A91A0099986D /* PersondetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersondetailViewController.swift; sourceTree = "<group>"; };
+		2F2A390B280676F700FF187F /* SnowRemover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnowRemover.entitlements; sourceTree = "<group>"; };
+		2F2A390C2806A62400FF187F /* ReserveStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReserveStoryboard.storyboard; sourceTree = "<group>"; };
+		2F2A390E2806A63C00FF187F /* ReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveViewController.swift; sourceTree = "<group>"; };
+		2F2A39102806AC3D00FF187F /* CheckoutStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CheckoutStoryboard.storyboard; sourceTree = "<group>"; };
+		2F2A39122806AC5100FF187F /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		2F2A39142806B7D800FF187F /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		2F2A39162806B8A900FF187F /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		2F2AD257280D4F30002F22C1 /* OrderDetailsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrderDetailsStoryboard.storyboard; sourceTree = "<group>"; };
+		2F2AD259280D4F52002F22C1 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
 		2F2FCF2D27F3FC2F00CD6197 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		2F67A269280DCC4700268CB3 /* OrderItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemModel.swift; sourceTree = "<group>"; };
+		2F67A26B280DCD3400268CB3 /* OrderItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemTableViewCell.swift; sourceTree = "<group>"; };
 		2F93E6A827F3ED00006354EE /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		2FD775B5280CADD100E75DA5 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		2FD775B7280CBB2100E75DA5 /* OrderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +132,7 @@
 				2F0537BA27F3C9FF00AB1C61 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				2F0537B427F3C9FF00AB1C61 /* FirebaseDatabaseSwift-Beta in Frameworks */,
 				2F0537B627F3C9FF00AB1C61 /* FirebaseDynamicLinks in Frameworks */,
+				2FF482D2280F5D3300EBA43C /* YouTubeiOSPlayerHelper in Frameworks */,
 				2F0537A827F3C9FF00AB1C61 /* FirebaseAppCheck in Frameworks */,
 				2F0537AC27F3C9FF00AB1C61 /* FirebaseAuth in Frameworks */,
 				2F0537D827F3C9FF00AB1C61 /* FirebaseStorageSwift-Beta in Frameworks */,
@@ -150,6 +183,7 @@
 		2F05378727F3C5AD00AB1C61 /* SnowRemover */ = {
 			isa = PBXGroup;
 			children = (
+				2F2A390B280676F700FF187F /* SnowRemover.entitlements */,
 				2F1B8F4827F413410099986D /* ViewControllers */,
 				2F1B8F4527F413100099986D /* Storyboards */,
 				2F93E6A727F3ECEA006354EE /* Model */,
@@ -162,6 +196,7 @@
 				2F05379127F3C5AE00AB1C61 /* Assets.xcassets */,
 				2F05379327F3C5AE00AB1C61 /* LaunchScreen.storyboard */,
 				2F05379627F3C5AE00AB1C61 /* Info.plist */,
+				2F1690DC28104EF30034B49B /* logo.jpeg */,
 				2F05379E27F3C99B00AB1C61 /* GoogleService-Info.plist */,
 			);
 			path = SnowRemover;
@@ -182,6 +217,9 @@
 			children = (
 				2F0537E127F3D59000AB1C61 /* ProductCollectionViewCell.swift */,
 				2F0537E227F3D59000AB1C61 /* ProductCollectionViewCell.xib */,
+				2F2A39142806B7D800FF187F /* CartTableViewCell.swift */,
+				2FD775B7280CBB2100E75DA5 /* OrderViewCell.swift */,
+				2F67A26B280DCD3400268CB3 /* OrderItemTableViewCell.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -194,6 +232,10 @@
 				2F1B8F5327F489210099986D /* ProductDetailStoryboard.storyboard */,
 				2F1B8F5727F499AA0099986D /* UserProfileStoryboard.storyboard */,
 				2F1B8F5B27F4A9000099986D /* PersonDetailStoryboard.storyboard */,
+				2F11C46E2803787B0097BBA1 /* CartStoryboard.storyboard */,
+				2F2A390C2806A62400FF187F /* ReserveStoryboard.storyboard */,
+				2F2A39102806AC3D00FF187F /* CheckoutStoryboard.storyboard */,
+				2F2AD257280D4F30002F22C1 /* OrderDetailsStoryboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -206,6 +248,10 @@
 				2F1B8F5527F489380099986D /* ProductDetailViewController.swift */,
 				2F1B8F5927F499BB0099986D /* UserProfileViewController.swift */,
 				2F1B8F5D27F4A91A0099986D /* PersondetailViewController.swift */,
+				2F11C470280378980097BBA1 /* CartViewController.swift */,
+				2F2A390E2806A63C00FF187F /* ReserveViewController.swift */,
+				2F2A39122806AC5100FF187F /* CheckoutViewController.swift */,
+				2F2AD259280D4F52002F22C1 /* OrderDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -216,6 +262,9 @@
 				2F93E6A827F3ED00006354EE /* ProductModel.swift */,
 				2F2FCF2D27F3FC2F00CD6197 /* ImageService.swift */,
 				2F1B8F4D27F4288B0099986D /* ToastLabel.swift */,
+				2F2A39162806B8A900FF187F /* CartModel.swift */,
+				2FD775B5280CADD100E75DA5 /* OrderModel.swift */,
+				2F67A269280DCC4700268CB3 /* OrderItemModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +314,7 @@
 				2F0537D327F3C9FF00AB1C61 /* FirebaseStorage */,
 				2F0537D527F3C9FF00AB1C61 /* FirebaseStorageCombine-Community */,
 				2F0537D727F3C9FF00AB1C61 /* FirebaseStorageSwift-Beta */,
+				2FF482D1280F5D3300EBA43C /* YouTubeiOSPlayerHelper */,
 			);
 			productName = SnowRemover;
 			productReference = 2F05378527F3C5AD00AB1C61 /* SnowRemover.app */;
@@ -296,6 +346,7 @@
 			mainGroup = 2F05377C27F3C5AD00AB1C61;
 			packageReferences = (
 				2F0537A027F3C9FF00AB1C61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2FF482D0280F5D3300EBA43C /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
 			);
 			productRefGroup = 2F05378627F3C5AD00AB1C61 /* Products */;
 			projectDirPath = "";
@@ -313,14 +364,19 @@
 			files = (
 				2F05379527F3C5AE00AB1C61 /* LaunchScreen.storyboard in Resources */,
 				2F05379F27F3C99B00AB1C61 /* GoogleService-Info.plist in Resources */,
+				2F2A39112806AC3D00FF187F /* CheckoutStoryboard.storyboard in Resources */,
 				2F0537E427F3D59000AB1C61 /* ProductCollectionViewCell.xib in Resources */,
 				2F1B8F5027F430350099986D /* SignUpStoryboard.storyboard in Resources */,
+				2F2A390D2806A62400FF187F /* ReserveStoryboard.storyboard in Resources */,
 				2F05379227F3C5AE00AB1C61 /* Assets.xcassets in Resources */,
+				2F11C46F2803787B0097BBA1 /* CartStoryboard.storyboard in Resources */,
 				2F05379027F3C5AD00AB1C61 /* Main.storyboard in Resources */,
 				2F1B8F5427F489210099986D /* ProductDetailStoryboard.storyboard in Resources */,
+				2F1690DD28104EF30034B49B /* logo.jpeg in Resources */,
 				2F1B8F4727F413370099986D /* SignInStoryboard.storyboard in Resources */,
 				2F1B8F5827F499AA0099986D /* UserProfileStoryboard.storyboard in Resources */,
 				2F1B8F5C27F4A9000099986D /* PersonDetailStoryboard.storyboard in Resources */,
+				2F2AD258280D4F30002F22C1 /* OrderDetailsStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +392,7 @@
 				2F1B8F5E27F4A91A0099986D /* PersondetailViewController.swift in Sources */,
 				2F2FCF2E27F3FC2F00CD6197 /* ImageService.swift in Sources */,
 				2F0537E327F3D59000AB1C61 /* ProductCollectionViewCell.swift in Sources */,
+				2F2A39172806B8A900FF187F /* CartModel.swift in Sources */,
 				2F1B8F5627F489380099986D /* ProductDetailViewController.swift in Sources */,
 				2F05378927F3C5AD00AB1C61 /* AppDelegate.swift in Sources */,
 				2F05378B27F3C5AD00AB1C61 /* SceneDelegate.swift in Sources */,
@@ -343,9 +400,18 @@
 				2F0537DF27F3D11700AB1C61 /* AboutUsViewController.swift in Sources */,
 				2F1B8F5A27F499BB0099986D /* UserProfileViewController.swift in Sources */,
 				2F0537DB27F3D0E300AB1C61 /* PersonViewController.swift in Sources */,
+				2FD775B8280CBB2100E75DA5 /* OrderViewCell.swift in Sources */,
+				2F2A390F2806A63C00FF187F /* ReserveViewController.swift in Sources */,
+				2F2A39152806B7D800FF187F /* CartTableViewCell.swift in Sources */,
+				2F67A26C280DCD3400268CB3 /* OrderItemTableViewCell.swift in Sources */,
+				2F11C471280378980097BBA1 /* CartViewController.swift in Sources */,
 				2F1B8F4A27F4136D0099986D /* SignInViewController.swift in Sources */,
 				2F93E6A927F3ED00006354EE /* ProductModel.swift in Sources */,
+				2F67A26A280DCC4700268CB3 /* OrderItemModel.swift in Sources */,
+				2F2A39132806AC5100FF187F /* CheckoutViewController.swift in Sources */,
+				2FD775B6280CADD100E75DA5 /* OrderModel.swift in Sources */,
 				2F1B8F4E27F4288B0099986D /* ToastLabel.swift in Sources */,
+				2F2AD25A280D4F52002F22C1 /* OrderDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +556,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SnowRemover/SnowRemover.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U899AYJ64;
@@ -498,6 +567,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,9 +577,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Karan.SnowRemover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -518,6 +589,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SnowRemover/SnowRemover.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U899AYJ64;
@@ -526,6 +600,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -535,9 +610,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Karan.SnowRemover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -571,6 +647,14 @@
 			requirement = {
 				branch = master;
 				kind = branch;
+			};
+		};
+		2FF482D0280F5D3300EBA43C /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -715,6 +799,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2F0537A027F3C9FF00AB1C61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseStorageSwift-Beta";
+		};
+		2FF482D1280F5D3300EBA43C /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FF482D0280F5D3300EBA43C /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

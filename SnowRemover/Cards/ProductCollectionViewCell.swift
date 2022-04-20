@@ -27,7 +27,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
     
     public func setData(with product: ProductModel){
         nameLabel.text = product.name
-        priceLabel.text = product.price
+        priceLabel.text = String(product.price)
         
         imageView.image = UIImage(named: "logo")
         

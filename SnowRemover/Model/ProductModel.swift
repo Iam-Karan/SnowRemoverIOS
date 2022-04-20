@@ -10,8 +10,9 @@ import UIKit
 struct ProductModel {
     let id : String
     let name : String
-    let price : String
+    let price : Double
     let imageurl : String
     let type : String
+    let count : Int
 }
 

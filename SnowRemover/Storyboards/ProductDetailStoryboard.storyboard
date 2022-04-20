@@ -64,16 +64,59 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xf7-jG-gys">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="252.5"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WHs-qg-RXx">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QcL-XG-CCS">
                                                         <rect key="frame" x="10" y="10" width="394" height="232.5"/>
-                                                    </imageView>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vu0-e8-K2D">
+                                                                <rect key="frame" x="0.0" y="0.0" width="394" height="207.5"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WHs-qg-RXx">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="207.5"/>
+                                                                    </imageView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLU-4m-TsA" customClass="YTPlayerView">
+                                                                        <rect key="frame" x="394" y="0.0" width="0.0" height="207.5"/>
+                                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                    </view>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dps-x2-HaG">
+                                                                <rect key="frame" x="0.0" y="212.5" width="394" height="20"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ACZ-tb-NE2">
+                                                                        <rect key="frame" x="172" y="0.0" width="50" height="20"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OP6-V7-JD8">
+                                                                                <rect key="frame" x="0.0" y="0.5" width="20" height="19"/>
+                                                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </imageView>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CfO-xI-Ci2">
+                                                                                <rect key="frame" x="30" y="0.5" width="20" height="19"/>
+                                                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="5C1-n3-nhG"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" red="0.20392156859999999" green="0.6588235294" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="ACZ-tb-NE2" firstAttribute="centerX" secondItem="dps-x2-HaG" secondAttribute="centerX" id="7cA-We-Gtv"/>
+                                                                    <constraint firstItem="ACZ-tb-NE2" firstAttribute="top" secondItem="dps-x2-HaG" secondAttribute="top" id="MYh-ML-bKt"/>
+                                                                    <constraint firstItem="ACZ-tb-NE2" firstAttribute="centerY" secondItem="dps-x2-HaG" secondAttribute="centerY" id="MfN-H7-mFT"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="ACZ-tb-NE2" secondAttribute="bottom" id="Wqa-VU-88A"/>
+                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="eAt-XC-JeC"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.20392156859999999" green="0.6588235294" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="WHs-qg-RXx" secondAttribute="trailing" constant="10" id="bqf-6W-TfA"/>
-                                                    <constraint firstItem="WHs-qg-RXx" firstAttribute="leading" secondItem="xf7-jG-gys" secondAttribute="leading" constant="10" id="dHv-jn-zQZ"/>
-                                                    <constraint firstItem="WHs-qg-RXx" firstAttribute="top" secondItem="xf7-jG-gys" secondAttribute="top" constant="10" id="jSm-Ac-8rj"/>
-                                                    <constraint firstAttribute="bottom" secondItem="WHs-qg-RXx" secondAttribute="bottom" constant="10" id="ve1-gl-ogj"/>
+                                                    <constraint firstItem="QcL-XG-CCS" firstAttribute="top" secondItem="xf7-jG-gys" secondAttribute="top" constant="10" id="PPs-Oj-g6e"/>
+                                                    <constraint firstItem="QcL-XG-CCS" firstAttribute="leading" secondItem="xf7-jG-gys" secondAttribute="leading" constant="10" id="fHN-Dq-Vlp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="QcL-XG-CCS" secondAttribute="bottom" constant="10" id="hvD-Oo-elk"/>
+                                                    <constraint firstAttribute="trailing" secondItem="QcL-XG-CCS" secondAttribute="trailing" constant="10" id="sQI-80-NZc"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-gP-xFp">
@@ -260,11 +303,15 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="favouriteImage" destination="hrv-ht-XxG" id="64y-AN-Nrl"/>
+                        <outlet property="playerView" destination="fLU-4m-TsA" id="l4m-V1-5EA"/>
                         <outlet property="productDiscription" destination="U4v-HO-Fkb" id="I3n-5L-0kZ"/>
                         <outlet property="productImage" destination="WHs-qg-RXx" id="hMx-vW-TnK"/>
                         <outlet property="productName" destination="PAr-gN-zjf" id="40M-FF-gwP"/>
                         <outlet property="productPrice" destination="iqE-Rm-qHn" id="D5Y-93-Qrn"/>
                         <outlet property="productQuntity" destination="rZG-Pc-xf5" id="GPH-L8-Zdr"/>
+                        <outlet property="showImage" destination="OP6-V7-JD8" id="EFa-eH-oI3"/>
+                        <outlet property="showVideo" destination="CfO-xI-Ci2" id="ian-RJ-tXc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -273,6 +320,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="circle" catalog="system" width="128" height="121"/>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="heart" catalog="system" width="128" height="109"/>
         <image name="logo" width="1024" height="1024"/>
         <systemColor name="systemBackgroundColor">

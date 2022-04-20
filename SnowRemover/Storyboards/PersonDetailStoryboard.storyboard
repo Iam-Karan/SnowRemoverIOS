@@ -139,16 +139,16 @@
                                                         <rect key="frame" x="10" y="10" width="394" height="245.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="F7e-sT-Tfk">
-                                                                <rect key="frame" x="0.0" y="0.0" width="394" height="81.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="394" height="61.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PricePrHour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJi-TI-ngH">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="197" height="81.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="197" height="61.5"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJG-oI-rJc">
-                                                                        <rect key="frame" x="197" y="0.0" width="197" height="81.5"/>
+                                                                        <rect key="frame" x="197" y="0.0" width="197" height="61.5"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                                         <color key="textColor" red="0.20392156859999999" green="0.6588235294" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -156,27 +156,83 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qTq-eI-94B">
-                                                                <rect key="frame" x="0.0" y="81.5" width="394" height="82"/>
+                                                                <rect key="frame" x="0.0" y="61.5" width="394" height="61"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOu-oi-Heh">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="197" height="82"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="197" height="61"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgR-dD-Efo">
-                                                                        <rect key="frame" x="197" y="0.0" width="197" height="82"/>
+                                                                        <rect key="frame" x="197" y="0.0" width="197" height="61"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                                         <color key="textColor" red="0.20392156859999999" green="0.6588235294" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4MK-ne-JA0">
+                                                                <rect key="frame" x="0.0" y="122.5" width="394" height="61.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Atn-V4-F77">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="197" height="61.5"/>
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-sQ-tT2">
+                                                                        <rect key="frame" x="197" y="0.0" width="197" height="61.5"/>
+                                                                        <subviews>
+                                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uv-38-b83">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="59" height="61.5"/>
+                                                                                <state key="normal" title="Button"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" subtitle="">
+                                                                                    <attributedString key="attributedTitle">
+                                                                                        <fragment content="-">
+                                                                                            <attributes>
+                                                                                                <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                            </attributes>
+                                                                                        </fragment>
+                                                                                    </attributedString>
+                                                                                </buttonConfiguration>
+                                                                                <connections>
+                                                                                    <action selector="removeHours:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="AyC-t5-2tL"/>
+                                                                                </connections>
+                                                                            </button>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzo-pc-slS">
+                                                                                <rect key="frame" x="69" y="0.0" width="59" height="61.5"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMr-Te-6bJ">
+                                                                                <rect key="frame" x="138" y="0.0" width="59" height="61.5"/>
+                                                                                <state key="normal" title="Button"/>
+                                                                                <buttonConfiguration key="configuration" style="plain">
+                                                                                    <attributedString key="attributedTitle">
+                                                                                        <fragment content="+">
+                                                                                            <attributes>
+                                                                                                <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                            </attributes>
+                                                                                        </fragment>
+                                                                                    </attributedString>
+                                                                                </buttonConfiguration>
+                                                                                <connections>
+                                                                                    <action selector="addHours:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Gir-1P-3qQ"/>
+                                                                                </connections>
+                                                                            </button>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SF8-Sg-MYd">
-                                                                <rect key="frame" x="0.0" y="163.5" width="394" height="82"/>
+                                                                <rect key="frame" x="0.0" y="184" width="394" height="61.5"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fe4-7P-XkL">
-                                                                        <rect key="frame" x="30" y="10" width="334" height="62"/>
+                                                                        <rect key="frame" x="30" y="10" width="334" height="41.5"/>
                                                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                                         <state key="normal" title="Button"/>
                                                                         <buttonConfiguration key="configuration" style="plain" title="ADD TO CART">
@@ -221,8 +277,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="favouriteImage" destination="pUA-xY-Mmf" id="itk-VX-N0u"/>
                         <outlet property="personAge" destination="ZgR-dD-Efo" id="2oh-iH-cGw"/>
                         <outlet property="personDescription" destination="ygg-oU-QsL" id="4FG-Fn-d5A"/>
+                        <outlet property="personHours" destination="Kzo-pc-slS" id="qAd-Fd-gxG"/>
                         <outlet property="personImage" destination="fA1-px-FPI" id="cEC-c9-0N7"/>
                         <outlet property="personName" destination="Oj5-GW-Xxb" id="5gB-7H-nzE"/>
                         <outlet property="personPrice" destination="cJG-oI-rJc" id="TKE-yC-kma"/>

@@ -84,15 +84,14 @@ class UserProfileViewController: UIViewController {
             // Prompt the user to re-provide their sign-in credentials
             
             user?.reauthenticate(with: eMail, completion: { (result, error) in
-                if let err = error {
+                if error != nil {
                    //..read error message
                 } else {
                    //.. go on
                     
                       Auth.auth().currentUser?.updatePassword(to: newPwValue) { _ in (error)
                           if error != nil {
-                          // An error happened.
-                              print(error)
+                          
                         } else {
                             self.showToast("Password updated SuccessFully")
                         }

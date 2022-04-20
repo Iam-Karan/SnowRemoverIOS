@@ -13,10 +13,13 @@ class SignInViewController: UIViewController {
 
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
- 
+    @IBOutlet weak var errorText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        errorText.isHidden = true
+        
     }
     
     @IBAction func SignIn(_ sender: Any) {
@@ -27,8 +30,8 @@ class SignInViewController: UIViewController {
             
             Auth.auth().signIn(withEmail: emailValue, password: passwordValue) { (result, error) in
                     if let error = error, let _ = AuthErrorCode(rawValue: error._code) {
-                        print(error)
-                        self.showToast("Invalid email or password!")
+                        self.errorText.text = "Invalid email or password"
+                        self.errorText.isHidden = false
                     } else {
                         
                         
@@ -42,9 +45,22 @@ class SignInViewController: UIViewController {
                     }
                 }
         }
+        if(emailValue.isEmpty){
+            self.errorText.text = "Email must not be empty"
+            self.errorText.isHidden = false
+            self.email.layer.borderWidth = 1
+            self.email.layer.borderColor = CGColor.init(red: 255, green: 0, blue: 0, alpha: 1)
+        }
+        if(passwordValue.isEmpty){
+            self.errorText.text = "Password must not be empty"
+            self.errorText.isHidden = false
+            self.password.layer.borderWidth = 1
+            self.password.layer.borderColor = CGColor.init(red: 255, green: 0, blue: 0, alpha: 1)
+        }
         
         
     }
+    
     
     
     @IBAction func GotoSignUp(_ sender: Any) {
